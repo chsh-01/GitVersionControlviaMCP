@@ -9,3 +9,17 @@ leapwork.configuration({
     (leapwork.team.settings.get("enableSelfHeal")
       ?? leapwork.workspace.settings.get("enableSelfHeal")) !== "false",
 });
+
+// ai-studio-step-id: pw7uiedk00
+await leapwork.step("Step name", async () => {
+  // Step implementation
+}, {
+  action: "click"
+});
+
+// ai-studio-step-id: pw1qp0wwr0
+await leapwork.step("Step name", async () => {
+  // Step implementation
+}, {
+  action: "click"
+});
