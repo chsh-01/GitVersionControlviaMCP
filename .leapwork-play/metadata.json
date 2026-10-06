@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T12:39:19.166Z",
+  "generatedAt": "2026-10-06T13:04:27.395Z",
   "repo": {
     "connectorId": 90,
     "repoSlug": "chsh-01/GitVersionControlviaMCP",
@@ -45,6 +45,13 @@
               "name": "AddProductToCart",
               "kind": "typescript",
               "repoPath": "ServiceNow/Helpers/TS-7-AddProductToCart.ts"
+            },
+            {
+              "assetId": 11568,
+              "displayId": "TS-2",
+              "name": "selectDropDownHelper",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-2-selectDropDownHelper.ts"
             }
           ]
         }
@@ -87,6 +94,14 @@
       "name": "AddRequestedItem",
       "repoPath": "ServiceNow/Commons/TC-4-AddRequestedItem.spec.ts",
       "parentAssetId": 11571
+    },
+    {
+      "assetId": 11568,
+      "assetKind": "typescript",
+      "displayId": "TS-2",
+      "name": "selectDropDownHelper",
+      "repoPath": "ServiceNow/Helpers/TS-2-selectDropDownHelper.ts",
+      "parentAssetId": 11566
     },
     {
       "assetId": 11583,
