@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T11:51:08.665Z",
+  "generatedAt": "2026-10-06T12:00:22.274Z",
   "repo": {
     "connectorId": 90,
     "repoSlug": "chsh-01/GitVersionControlviaMCP",
@@ -13,6 +13,29 @@
   },
   "tree": [
     {
+      "assetId": 11565,
+      "displayId": "FD-1",
+      "name": "ServiceNow",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 11566,
+          "displayId": "FD-2",
+          "name": "Helpers",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 11583,
+              "displayId": "TS-7",
+              "name": "AddProductToCart",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-7-AddProductToCart.ts"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetId": 11584,
       "displayId": "TC-8",
       "name": "[C46714]_ServiceNow_OrderListedSoftware",
@@ -21,6 +44,14 @@
     }
   ],
   "files": [
+    {
+      "assetId": 11583,
+      "assetKind": "typescript",
+      "displayId": "TS-7",
+      "name": "AddProductToCart",
+      "repoPath": "ServiceNow/Helpers/TS-7-AddProductToCart.ts",
+      "parentAssetId": 11566
+    },
     {
       "assetId": 11584,
       "assetKind": "test-case",
