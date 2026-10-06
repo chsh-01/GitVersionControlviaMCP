@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T12:06:21.161Z",
+  "generatedAt": "2026-10-06T12:37:46.891Z",
   "repo": {
     "connectorId": 90,
     "repoSlug": "chsh-01/GitVersionControlviaMCP",
@@ -18,6 +18,21 @@
       "name": "ServiceNow",
       "kind": "folder",
       "children": [
+        {
+          "assetId": 11571,
+          "displayId": "FD-4",
+          "name": "Commons",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 11574,
+              "displayId": "TC-4",
+              "name": "AddRequestedItem",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/Commons/TC-4-AddRequestedItem.spec.ts"
+            }
+          ]
+        },
         {
           "assetId": 11566,
           "displayId": "FD-2",
@@ -43,14 +58,36 @@
       "repoPath": "TC-8-[C46714]_ServiceNow_OrderListedSoftware.spec.ts"
     },
     {
+      "assetId": 11581,
+      "displayId": "TC-7",
+      "name": "[C46727]_ServiceNow_CreateBusinessApplication",
+      "kind": "test-case",
+      "repoPath": "TC-7-[C46727]_ServiceNow_CreateBusinessApplication.spec.ts"
+    },
+    {
       "assetId": 11578,
       "displayId": "TC-6",
       "name": "[C46728]_ServiceNow_ActivateDeactivateOrderState",
       "kind": "test-case",
       "repoPath": "TC-6-[C46728]_ServiceNow_ActivateDeactivateOrderState.spec.ts"
+    },
+    {
+      "assetId": 11575,
+      "displayId": "TC-5",
+      "name": "[C46729]_ServiceNow_CleanAddedRequestAndIncident",
+      "kind": "test-case",
+      "repoPath": "TC-5-[C46729]_ServiceNow_CleanAddedRequestAndIncident.spec.ts"
     }
   ],
   "files": [
+    {
+      "assetId": 11574,
+      "assetKind": "test-case",
+      "displayId": "TC-4",
+      "name": "AddRequestedItem",
+      "repoPath": "ServiceNow/Commons/TC-4-AddRequestedItem.spec.ts",
+      "parentAssetId": 11571
+    },
     {
       "assetId": 11583,
       "assetKind": "typescript",
@@ -60,11 +97,27 @@
       "parentAssetId": 11566
     },
     {
+      "assetId": 11575,
+      "assetKind": "test-case",
+      "displayId": "TC-5",
+      "name": "[C46729]_ServiceNow_CleanAddedRequestAndIncident",
+      "repoPath": "TC-5-[C46729]_ServiceNow_CleanAddedRequestAndIncident.spec.ts",
+      "parentAssetId": 11563
+    },
+    {
       "assetId": 11578,
       "assetKind": "test-case",
       "displayId": "TC-6",
       "name": "[C46728]_ServiceNow_ActivateDeactivateOrderState",
       "repoPath": "TC-6-[C46728]_ServiceNow_ActivateDeactivateOrderState.spec.ts",
+      "parentAssetId": 11563
+    },
+    {
+      "assetId": 11581,
+      "assetKind": "test-case",
+      "displayId": "TC-7",
+      "name": "[C46727]_ServiceNow_CreateBusinessApplication",
+      "repoPath": "TC-7-[C46727]_ServiceNow_CreateBusinessApplication.spec.ts",
       "parentAssetId": 11563
     },
     {
