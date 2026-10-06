@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-06T11:51:08.665Z",
+  "repo": {
+    "connectorId": 90,
+    "repoSlug": "chsh-01/GitVersionControlviaMCP",
+    "baseBranch": "feature/gitversionviamcp"
+  },
+  "team": {
+    "assetId": 11563,
+    "displayId": "TM-1",
+    "name": "CSTeam"
+  },
+  "tree": [
+    {
+      "assetId": 11584,
+      "displayId": "TC-8",
+      "name": "[C46714]_ServiceNow_OrderListedSoftware",
+      "kind": "test-case",
+      "repoPath": "TC-8-[C46714]_ServiceNow_OrderListedSoftware.spec.ts"
+    }
+  ],
+  "files": [
+    {
+      "assetId": 11584,
+      "assetKind": "test-case",
+      "displayId": "TC-8",
+      "name": "[C46714]_ServiceNow_OrderListedSoftware",
+      "repoPath": "TC-8-[C46714]_ServiceNow_OrderListedSoftware.spec.ts",
+      "parentAssetId": 11563
+    }
+  ]
+}
