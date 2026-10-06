@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T13:07:00.114Z",
+  "generatedAt": "2026-10-06T13:23:05.334Z",
   "repo": {
     "connectorId": 90,
     "repoSlug": "chsh-01/GitVersionControlviaMCP",
@@ -91,9 +91,38 @@
       "name": "[C46729]_ServiceNow_CleanAddedRequestAndIncident",
       "kind": "test-case",
       "repoPath": "TC-5-[C46729]_ServiceNow_CleanAddedRequestAndIncident.spec.ts"
+    },
+    {
+      "assetId": 11596,
+      "displayId": "AG-1",
+      "name": "ag1",
+      "kind": "agent",
+      "repoPath": "AG-1-ag1.agent.json"
+    },
+    {
+      "assetId": 11595,
+      "displayId": "TC-10",
+      "name": "tc1",
+      "kind": "test-case",
+      "repoPath": "TC-10-tc1.spec.ts"
+    },
+    {
+      "assetId": 11594,
+      "displayId": "TS-8",
+      "name": "ts1",
+      "kind": "typescript",
+      "repoPath": "TS-8-ts1.ts"
     }
   ],
   "files": [
+    {
+      "assetId": 11596,
+      "assetKind": "agent",
+      "displayId": "AG-1",
+      "name": "ag1",
+      "repoPath": "AG-1-ag1.agent.json",
+      "parentAssetId": 11563
+    },
     {
       "assetId": 11574,
       "assetKind": "test-case",
@@ -127,6 +156,14 @@
       "parentAssetId": 11566
     },
     {
+      "assetId": 11595,
+      "assetKind": "test-case",
+      "displayId": "TC-10",
+      "name": "tc1",
+      "repoPath": "TC-10-tc1.spec.ts",
+      "parentAssetId": 11563
+    },
+    {
       "assetId": 11575,
       "assetKind": "test-case",
       "displayId": "TC-5",
@@ -156,6 +193,14 @@
       "displayId": "TC-8",
       "name": "[C46714]_ServiceNow_OrderListedSoftware",
       "repoPath": "TC-8-[C46714]_ServiceNow_OrderListedSoftware.spec.ts",
+      "parentAssetId": 11563
+    },
+    {
+      "assetId": 11594,
+      "assetKind": "typescript",
+      "displayId": "TS-8",
+      "name": "ts1",
+      "repoPath": "TS-8-ts1.ts",
       "parentAssetId": 11563
     }
   ]
