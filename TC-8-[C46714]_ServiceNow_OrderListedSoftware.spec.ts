@@ -7,7 +7,7 @@ import { ServiceNowLogOut } from "@assets/ServiceNow/ServiceNow_LoginLogout/Serv
 import { filterNavMenuSearch } from "@assets/ServiceNow/Helpers/filterNavMenuSearch";
 
 declare const require: (name: string) => any;
-const xlsxFile = leapwork.files.path("FL-2");
+const xlsxFile = leapwork.files.path("FL-1");
 
 leapwork.configuration({
   enableSelfHeal: false,
